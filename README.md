@@ -29,14 +29,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+<!-- .forEach is an iterator function we use a callback to access items in an array and .map retunrs a new array of elements while in turn passing each element back to the call back -->
 2. What is the difference between a function and a method?
-
+<!-- methods are definded with in a object class. Function returns a value  -->
 3. What is closure?
-
+<!-- Is a function that refer to to independent variables. Functions in closure remember the enviroment in which it was created. -->
 4. Describe the four rules of the 'this' keyword.
+<!-- * 1. Window Binding - refers to the value of 'this' in the window/console of the object
 
+* 2. Implicit Binding - the object left to the dot refers to this (automatice assigns automaticly to the left of the called function to the period.)
+
+
+* 3. New Binding - constructing a new object by using a new keyword and using this to point to that object.
+
+
+* 4. Explicit Binding - telling Javscript Engine to set a point to a certain value such as 'call', 'apply', or 'bind'.
+* -->
 5. Why do we need super() in an extended class?
+<!-- Super is needed in the extended class to inherit the parent functions. -->
 
 ## Project Set up
 
@@ -78,7 +88,7 @@ Create constructors, bind methods, and create cuboids in this prototypes challen
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [X] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
